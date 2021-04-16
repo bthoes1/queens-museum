@@ -2,9 +2,43 @@
 	font-family: Avenir;
 	src: url(../fonts/Avenir.ttc);
 }
+section {
+	border: 1px solid gray;
+	padding: 10px;
+	margin: 10px 10px 10px 50px;
+}
 
 body {
 	font-family: Avenir;
+	margin: 10px;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+header h1 {
+	margin-bottom: 5px;
+	font-size: 1.5rem;
+}
+header p {
+	margin-top:0;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .75rem;
+}
+
+.note {
+	font-style: italic;
+	font-size: .75rem;
+	margin-left: 50px;
+	max-width: 25%;
+}
+
+h2 {
+	font-size: 1rem;
+	font-weight: 800;
+	margin-bottom: 50px
 }
 
 .main-logo-image {
@@ -17,4 +51,38 @@ body {
 	font-size: 1.72rem;
 	font-weight: 800;
 	color: #898b8d;
+}
+
+.hero-h2-image {
+	max-width: 100%;
+}
+
+.hero-h2-style {
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+	max-width: 100%;
+	padding: 5px 5px 2px 10px;
+	font-weight: 600;
+}
+
+.article-h3-image {
+	max-width: 370px;
+}
+
+.article-h3-style {
+	font-size: 2.625rem;
+	font-weight: 800;
+}
+
+.h4-image {
+	max-width: 750px;
+}
+
+.h4-style {
+	font-size: 1rem;
+	border-top: 2px dotted #898b8d;
+	padding: 5px 0;
+	color: #898b9d;
+	font-weight: 700;
 }
