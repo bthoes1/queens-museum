@@ -2,14 +2,19 @@
 	font-family: Avenir;
 	src: url(../fonts/Avenir.ttc);
 }
+@font-face {
+	font-family: Avenir Next;
+	src: url(../fonts/Avenir Next.ttc);
+}
 section {
 	border: 1px solid gray;
 	padding: 10px;
 	margin: 10px 10px 10px 50px;
+	width: 750px;
 }
 
 body {
-	font-family: Avenir;
+	font-family: Avenir Next;
 	margin: 10px;
 }
 
@@ -19,12 +24,13 @@ header {
 
 header h1 {
 	margin-bottom: 5px;
-	font-size: 1.5rem;
+	font-size: 2rem;
+	font-weight: 400;
 }
 header p {
 	margin-top:0;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: .75rem;
 }
 
@@ -33,11 +39,12 @@ header p {
 	font-size: .75rem;
 	margin-left: 50px;
 	max-width: 25%;
+	margin-bottom: 50px;
 }
 
-h2 {
+h2, h3 {
 	font-size: 1rem;
-	font-weight: 800;
+	font-weight: 500;
 	margin-bottom: 50px
 }
 
@@ -58,12 +65,12 @@ h2 {
 }
 
 .hero-h2-style {
-	font-size: 1rem;
+	font-size: .8rem;
 	background-color: black;
 	color: white;
 	max-width: 100%;
 	padding: 5px 5px 2px 10px;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .article-h3-image {
@@ -72,9 +79,12 @@ h2 {
 
 .article-h3-style {
 	font-size: 2.625rem;
-	font-weight: 800;
+	font-weight: 600;
 }
 
+.background-image {
+	width: 650px;
+}
 .h4-image {
 	max-width: 750px;
 }
@@ -84,5 +94,29 @@ h2 {
 	border-top: 2px dotted #898b8d;
 	padding: 5px 0;
 	color: #898b9d;
-	font-weight: 700;
+	font-weight: 600;
+}
+
+.main-nav-image {
+	width: 750px;
+}
+
+
+.main-nav-style {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.main-nav-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.main-nav-list-item {
+	padding-bottom: 20px;
+	font-size: 1.1rem;
+	color: #898b8d;
+	border-top: 2px dotted #898b8d;
+	padding-top: 5px;
 }
