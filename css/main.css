@@ -176,3 +176,38 @@ h2, h3 {
 	margin: 0;
 	padding: 0;
 }
+
+.article-image {
+	width: 200px;
+}
+
+.article-style {
+	width: 200px;
+}
+
+.article-style-top {
+	margin: 0;
+}
+
+.article-top-thumbnail {
+	width: 100%;
+	padding: 0;
+}
+
+.article-bottom {
+	background: #e9eaeb;
+	color: #898b8d;
+	font-size: .8rem;
+	padding: 10px;
+	margin-top: 25px;
+}
+
+.article-bottom-header {
+	font-weight: 500;
+	margin: 0 0 15px 0;
+}
+
+.article-bottom-subheader {
+	font-weight: 400;
+	margin: 15px 0 0 0;
+}
