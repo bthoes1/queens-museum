@@ -260,3 +260,36 @@ h2, h3 {
 	text-align: left;
 	padding-right: 25px;
 }
+
+.footer-contact-image {
+	width: 210px;
+}
+
+.footer-contact-style {
+	font-size: .75rem;
+	color: #656565;
+}
+
+.footer-contact-style-address-header, .footer-contact-style-address-line{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.footer-contact-style-transportation {
+	display: flex;
+
+}
+
+.footer-contact-style-transportation-subway-icon {
+	color: white;
+	background: #ae30cc ;
+	border-radius: 50%;
+	font-size: .55rem;
+	font-weight: 600;
+	width: 12px;
+	height: 12px;
+	padding: 2px 1px 0 1px;
+	font-family: sans-serif;
+	text-align: center;
+	align-content: center;
+	margin-right: 5px;
+}
