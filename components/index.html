@@ -1,267 +1,310 @@
 <!doctype HTML>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Components for Queens Museum Case Study</title>
-	<link rel="stylesheet" href="../css/normalize.css">
-	<link rel="stylesheet" href="../css/main.css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Components for Queens Museum Case Study</title>
+		<link rel="stylesheet" href="../css/normalize.css">
+		<link rel="stylesheet" href="../css/main.css">
+		<script src="https://kit.fontawesome.com/9e2b45a406.js" crossorigin="anonymous"></script>
+	</head>
 
-<body>
-	<header>
-		<h1>Queens Study Museum</h1>
-		<p>Design System Case Study</p>
-	</header>
+	<body>
+		<div class="page-nav-container">
+			<ul class="page-nav">
+				<li class="page-nav-list-header"><a href="#typography">Type Atoms</a>
+					<ul class="page-nav-sublist">
+						<li><a href="#h1">h1</a></li>
+						<li><a href="#h2">h2 (hero)</a></li>
+						<li><a href="#h3">h3 (hero)</a></li>
+						<li><a href="#h4">h4</a></li>
+					</ul>
+				</li>
+			</ul>
 
-	<div class="page-grouping typography">
-		<h2>Typography Atoms</h2>
+			<ul class="page-nav">
+				<li class="page-nav-list-header"><a href="#molecules">Page Mol &amp; Org</a>
+					<ul class="page-nav-sublist">
+						<li><a href="#main-nav-list">Main nav list</a></li>
+						<li><a href="#hero">Hero Carousel</a></li>
+						<li><a href="#article">Page article</a></li>
+						<li><a href="#article2">Page article rounded</a></li>
+						<li><a href="#footer-links">Footer - links</a></li>
+						<li><a href="#footer-hours">Footer - hours</a></li>
+						<li><a href="#footer-contact">Footer - contact</a></li>
+						<li><a href="#footer-social">Footer - social</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 
-		<section class="h1-style">
-			<h3>H1</h3>
+		<header>
+			<h1>Queens Study Museum</h1>
+			<p>Design System Case Study</p>
+		</header>
 
-			<img class="main-logo-image" src="images/queens-museum-logo-01.png">
+		<div class="page-grouping typography" id="typography">
+			<h2>Typography Atoms</h2>
 
-			
-			<!--Could use below code if needed
-				<p class="main-logo-style">Queens Museum</p>
-			-->
+			<section class="h1-style">
+				<h3 id="h1">H1</h3>
 
-			<p class="note">Because logo is in custom typeface and always accompanies illustrtation, I will plant to use a png version</p>
-		</section>
+				<img class="main-logo-image" src="images/queens-museum-logo-01.png">
 
-		<section class="h2-style">
-			<h3>H2 (hero)</h3>
+				
+				<!--Could use below code if needed
+					<p class="main-logo-style">Queens Museum</p>
+				-->
 
-			<img class="hero-h2-image" src="images/hero-h2.png">
+				<p class="note">Because logo is in custom typeface and always accompanies illustrtation, I will plant to use a png version</p>
+			</section>
 
-			<p class="hero-h2-style">News</p>
-		</section>
+			<section class="h2-style">
+				<h3 id="h2">H2 (hero)</h3>
 
-		<section class="h3-style">
-			<h3>H3 (hero carousel)</h3>
-
-			<img class="article-h3-image" src="images/h3-image.png">
-
-			<p class="article-h3-style">Year of Uncertainty</p>
-
-			<p class="note">Note: Exploring question of why font-weights on my components page look different than font-weights on case study website. Website uses Avenir. Could this be a variation or not the same version I have, so font weights appear differently? E.g. both fonts are in weight=800, yet top version looks so much bolder. Color may change depending on carousel slide.</p>
-
-			<img class="background-image" src="images/grid-background-01.png">
-
-		</section>
-
-		<section class="h2-style">
-			<h3>H4</h3>
-
-			<img class="h4-image" src="images/h4-image.png">
-
-			<p class="h4-style">Upcoming Events</p>
-		</section>
-	</div>
-
-	<div class="page-grouping organisms">
-		<h2>Organisms</h2>
-
-		<section class="main-nav">
-			<h3>Main nav list</h3>
-
-			<img class="main-nav-image" src="images/main-nav.png">
-
-			<div class="main-nav-style">
-				<ul class="main-nav-list">
-					<li class="main-nav-list-item main-nav-list-item-1">Visit</li>
-					<li class="main-nav-list-item main-nav-list-item-2">About</li>
-					<li class="main-nav-list-item main-nav-list-item-3">Latest News</li>
-				</ul>
-
-				<ul class="main-nav-list">
-					<li class="main-nav-list-item main-nav-list-item-4">Exhibitions</li>
-					<li class="main-nav-list-item main-nav-list-item-5">Support</li>
-					<li class="main-nav-list-item main-nav-list-item-6">Space Rental</li>
-				</ul>
-
-				<ul class="main-nav-list">
-					<li class="main-nav-list-item main-nav-list-item-7">Events</li>
-					<li class="main-nav-list-item main-nav-list-item-8">In the Community</li>
-					<li class="main-nav-list-item main-nav-list-item-9">Gift Shop</li>
-				</ul>
-
-				<ul class="main-nav-list">
-					<li class="main-nav-list-item main-nav-list-item-10">Education</li>
-					<li class="main-nav-list-item main-nav-list-item-11">Year of Uncertainty</li>
-				</ul>
-			</div>
-		</section>
-
-		<section class="hero-full">
-
-			<img class="hero-image" src="../components/images/hero-image.png">
-
-			<article class="hero-full-container">
+				<img class="hero-h2-image" src="images/hero-h2.png">
 
 				<p class="hero-h2-style">News</p>
+			</section>
 
-				<img class="hero-content-image" src="images/hero-content-image.png">
+			<section class="h3-style">
+				<h3 id="h3">H3 (hero carousel)</h3>
 
-				<div class="article-description-container">
-					<div class="article-description-left">
-						<p class="article-h3-style">Year of Uncertainty</p>
+				<img class="article-h3-image" src="images/h3-image.png">
 
-						<p class="article-subheader-style">(You)</p>
+				<p class="article-h3-style">Year of Uncertainty</p>
+
+				<p class="note">Note: Exploring question of why font-weights on my components page look different than font-weights on case study website. Website uses Avenir. Could this be a variation or not the same version I have, so font weights appear differently? E.g. both fonts are in weight=800, yet top version looks so much bolder. Color may change depending on carousel slide.</p>
+
+				<img class="background-image" src="images/grid-background-01.png">
+
+			</section>
+
+			<section class="h2-style">
+				<h3 id="h4">H4</h3>
+
+				<img class="h4-image" src="images/h4-image.png">
+
+				<p class="h4-style">Upcoming Events</p>
+			</section>
+		</div>
+
+		<div class="page-grouping molecules">
+			<h2 id="molecules">Molecules & Organisms</h2>
+
+			<section class="main-nav">
+				<h3 id="main-nav-list">Main nav list</h3>
+
+				<img class="main-nav-image" src="images/main-nav.png">
+
+				<div class="main-nav-style">
+					<ul class="main-nav-list">
+						<li class="main-nav-list-item main-nav-list-item-1">Visit</li>
+						<li class="main-nav-list-item main-nav-list-item-2">About</li>
+						<li class="main-nav-list-item main-nav-list-item-3">Latest News</li>
+					</ul>
+
+					<ul class="main-nav-list">
+						<li class="main-nav-list-item main-nav-list-item-4">Exhibitions</li>
+						<li class="main-nav-list-item main-nav-list-item-5">Support</li>
+						<li class="main-nav-list-item main-nav-list-item-6">Space Rental</li>
+					</ul>
+
+					<ul class="main-nav-list">
+						<li class="main-nav-list-item main-nav-list-item-7">Events</li>
+						<li class="main-nav-list-item main-nav-list-item-8">In the Community</li>
+						<li class="main-nav-list-item main-nav-list-item-9">Gift Shop</li>
+					</ul>
+
+					<ul class="main-nav-list">
+						<li class="main-nav-list-item main-nav-list-item-10">Education</li>
+						<li class="main-nav-list-item main-nav-list-item-11">Year of Uncertainty</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="hero-full">
+				<h3 id="hero">Hero Carousel</h3>
+
+				<img class="hero-image" src="../components/images/hero-image.png">
+
+				<article class="hero-full-container">
+
+					<p class="hero-h2-style">News</p>
+
+					<img class="hero-content-image" src="images/hero-content-image.png">
+
+					<div class="article-description-container">
+						<div class="article-description-left">
+							<p class="article-h3-style">Year of Uncertainty</p>
+
+							<p class="article-subheader-style">(You)</p>
+						</div>
+
+						<div class="article-description-right">
+							<p class="article-h3-style">News</p>
+						</div>
+					</div>
+				</article>
+			</section>
+
+			<section class="page-article">
+				<h3 id="article">Page article</h3>
+
+				<img class="article-image" src="images/article-image.png">
+
+				<div class="article-style">
+					<div class="article-style-top">
+						<img class="article-top-thumbnail" src="images/article-thumbnail.png">
 					</div>
 
-					<div class="article-description-right">
-						<p class="article-h3-style">News</p>
+					<div class="article-bottom">
+						<h4 class="article-bottom-header">All Things Must Pass Discussion led by Cristina Ferrigno presented as part of</h4>
+
+						<p class="article-bottom-subheader">Apr 29, 2021 6:00pm-7:00pm</p>
 					</div>
 				</div>
-			</article>
-		</section>
+			</section>
 
-		<section class="page-article">
-			<h3>Page article</h3>
+			<section class="page-article">
+				<h3 id="article2">Page article with rounded image</h3>
 
-			<img class="article-image" src="images/article-image.png">
+				<img class="article-image article-image-rounded" src="images/article-image-rounded.png">
 
-			<div class="article-style">
-				<div class="article-style-top">
-					<img class="article-top-thumbnail" src="images/article-thumbnail.png">
+				<div class="article-style">
+					<div class="article-style-top">
+						<img class="article-top-thumbnail article-top-thumbnail-rounded" src="images/article-thumbnail-rounded.png">
+					</div>
+
+					<div class="article-bottom">
+						<h4 class="article-bottom-header">Adeze Wilford Joins the Queens Museum's Board of Trustees</h4>
+					</div>
 				</div>
+			</section>
 
-				<div class="article-bottom">
-					<h4 class="article-bottom-header">All Things Must Pass Discussion led by Cristina Ferrigno presented as part of</h4>
+			<section class="footer-links">
+				<h3 id="footer-links">Footer - links</h3>
 
-					<p class="article-bottom-subheader">Apr 29, 2021 6:00pm-7:00pm</p>
-				</div>
-			</div>
-		</section>
+				<img class="footer-links-image" src="images/footer-links-image.png">
 
-		<section class="page-article">
-			<h3>Page article with rounded image</h3>
+				<ul class="footer-links-style">
+					<ul class="footer-links-style-list footer-links-style-top">
+						<li>Admissions</li>
+						<li>Directions</li>
+					</ul>
 
-			<img class="article-image article-image-rounded" src="images/article-image-rounded.png">
-
-			<div class="article-style">
-				<div class="article-style-top">
-					<img class="article-top-thumbnail article-top-thumbnail-rounded" src="images/article-thumbnail-rounded.png">
-				</div>
-
-				<div class="article-bottom">
-					<h4 class="article-bottom-header">Adeze Wilford Joins the Queens Museum's Board of Trustees</h4>
-				</div>
-			</div>
-		</section>
-
-		<section class="footer-links">
-			<h3>Footer - links</h3>
-
-			<img class="footer-links-image" src="images/footer-links-image.png">
-
-			<ul class="footer-links-style">
-				<ul class="footer-links-style-list footer-links-style-top">
-					<li>Admissions</li>
-					<li>Directions</li>
+					<ul class="footer-links-style-list footer-links-style-bottom">
+						<li>Contact Us</li>
+						<li>Careers</li>
+					</ul>
 				</ul>
+			</section>
 
-				<ul class="footer-links-style-list footer-links-style-bottom">
-					<li>Contact Us</li>
-					<li>Careers</li>
-				</ul>
-			</ul>
-		</section>
+			<section class="footer-links">
+				<h3 id="footer-hours">Footer - hours</h3>
 
-		<section class="footer-links">
-			<h3>Footer - hours</h3>
+				<img class="footer-hours-image" src="images/footer-hours-image.png">
 
-			<img class="footer-hours-image" src="images/footer-hours-image.png">
-
-			<div class="footer-hours-style">
-				<table>
-					<tr>
-						<th>Monday</th>
-						<td>Closed</td>
-					</tr>
-					<tr>
-						<th>Tuesday</th>
-						<td>Closed</td>
-					</tr>
-					<tr>
-						<th>Wednesday</th>
-						<td>12 pm-5 pm</td>
-					</tr>
-					<tr>
-						<th>Thursday</th>
-						<td>12 pm-5 pm</td>
-					</tr>
-					<tr>
-						<th>Friday</th>
-						<td>12 pm-5 pm</td>
-					</tr>
-					<tr>
-						<th>Saturday</th>
-						<td>11 am-5 pm</td>
-					</tr>
-					<tr>
-						<th>Sunday</th>
-						<td>11 am-5 pm</td>
-					</tr>
-				</table>
-
-				<p class="footer-hours-note">Book timed tickets</p>
-			</div>
-		</section>
-
-		<section class="footer-contact">
-			<h3>Footer - contact</h3>
-
-			<img class="footer-contact-image" src="images/footer-contact-image.png">
-
-			<div class="footer-contact-style">
-				<div class="footer-contact-style-address">
-					<h4 class="footer-contact-style-address-header">Queens Museum</h4>
-
-					<p class="footer-contact-style-address-line">New York City Building</p>
-					<p class="footer-contact-style-address-line">Flushing Meadows Corona Park</p>
-					<p class="footer-contact-style-address-line">Queens, NY 11368</p>
-				</div>
-
-				<div class="footer-contact-style-transportation">
-					<p class="footer-contact-style-transportation-subway-icon">7</p>
-
-					<p class="footer-contact-style-transportation-subway-description">Mets-Willets Point</p>
-				</div>
-
-				<div class="footer-contact-style-info">
-					<table clas="footer-contact-style-info-table">
+				<div class="footer-hours-style">
+					<table>
 						<tr>
-							<th>T</th>
-							<td>718 592 9700</td>
+							<th>Monday</th>
+							<td>Closed</td>
 						</tr>
-
 						<tr>
-							<th>F</th>
-							<td>718 592 5778</td>
+							<th>Tuesday</th>
+							<td>Closed</td>
 						</tr>
-
 						<tr>
-							<th>E</th>
-							<td>info@queensmuseum.org</td>
+							<th>Wednesday</th>
+							<td>12 pm-5 pm</td>
+						</tr>
+						<tr>
+							<th>Thursday</th>
+							<td>12 pm-5 pm</td>
+						</tr>
+						<tr>
+							<th>Friday</th>
+							<td>12 pm-5 pm</td>
+						</tr>
+						<tr>
+							<th>Saturday</th>
+							<td>11 am-5 pm</td>
+						</tr>
+						<tr>
+							<th>Sunday</th>
+							<td>11 am-5 pm</td>
 						</tr>
 					</table>
+
+					<p class="footer-hours-note">Book timed tickets</p>
 				</div>
-			</div>
-		</section>
+			</section>
 
+			<section class="footer-contact">
+				<h3 id="footer-contact">Footer - contact</h3>
 
+				<img class="footer-contact-image" src="images/footer-contact-image.png">
 
+				<div class="footer-contact-style">
+					<div class="footer-contact-style-address">
+						<h4 class="footer-contact-style-address-header">Queens Museum</h4>
 
+						<p class="footer-contact-style-address-line">New York City Building</p>
+						<p class="footer-contact-style-address-line">Flushing Meadows Corona Park</p>
+						<p class="footer-contact-style-address-line">Queens, NY 11368</p>
+					</div>
 
+					<div class="footer-contact-style-transportation">
+						<p class="footer-contact-style-transportation-subway-icon">7</p>
 
+						<p class="footer-contact-style-transportation-subway-description">Mets-Willets Point</p>
+					</div>
 
+					<div class="footer-contact-style-info">
+						<table clas="footer-contact-style-info-table">
+							<tr>
+								<th>T</th>
+								<td>718 592 9700</td>
+							</tr>
 
+							<tr>
+								<th>F</th>
+								<td>718 592 5778</td>
+							</tr>
 
-	</div>
+							<tr>
+								<th>E</th>
+								<td>info@queensmuseum.org</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</section>
 
+			<section class="footer-social">
+				<h3 id="footer-social">Footer - social</h3>
 
+				<img class="footer-social-image" src="images/footer-social-image.png">
+
+				<div class="footer-social-style">
+					<div class="footer-social-style-nav-container">
+						<ul class="footer-social-style-nav">
+							<li><i class="fab fa-facebook-square"></i></li>
+							<li><i class="fab fa-twitter-square"></i></li>
+							<li><i class="fab fa-instagram-square"></i></li>
+							<li><i class="fab fa-flickr"></i></li>
+							<li><i class="fab fa-vimeo"></i></li>
+							<li><i class="fab fa-youtube-square"></i></li>
+						</ul>
+					</div>
+
+					<div class="footer-social-style-copyright-container">
+						<p class="footer-social-style-copyright">&#169; 2021 Queens Museum</p>
+					</div>
+				</div>
+			</section>		
+		</div>
+	</body>
 </html>

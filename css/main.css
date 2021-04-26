@@ -7,6 +7,38 @@
 	src: url(../fonts/Avenir Next.ttc);
 }
 
+.page-nav-container {
+	background: black;
+	border: 1px solid white;
+	position: fixed;
+	right: 0;
+	top: 33%;
+	color: white;
+	display: grid;
+	grid-template-columns: 125px 175px;
+}
+
+.page-nav-container a {
+	color: white;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+.page-nav {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.page-nav-list-header {
+	font-size: .75rem;
+	text-transform: uppercase;
+}
+
+.page-nav-sublist {
+	list-style-type: none;
+	padding-left: 0;
+}
+
 .page-grouping {
 	margin-top: 50px;
 }
@@ -292,4 +324,29 @@ h2, h3 {
 	text-align: center;
 	align-content: center;
 	margin-right: 5px;
+}
+
+.footer-social-image {
+	width: 185px;
+}
+
+.footer-social-style {
+	color: #656565;;
+}
+
+.footer-social-style-nav {
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.footer-social-style-nav li {
+	margin-right: 3px;
+	font-size: 1.5rem;
+}
+
+.footer-social-style-copyright {
+	font-size: .85rem;
+	text-transform: uppercase;
 }
