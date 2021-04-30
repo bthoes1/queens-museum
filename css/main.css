@@ -7,10 +7,10 @@
 	src: url(../fonts/Avenir Next.ttc);
 }
 
-body {
+.main-container {
 	margin: 0 auto;
 	max-width: 75%;
-	min-width: 700px;
+	min-width: 850px;
 	font-family: Avenir Next;
 	color: #898b8d
 }
@@ -128,4 +128,65 @@ body {
 .article-description-left p, .article-description-right p {
 	margin: 0;
 	padding: 0;
+}
+
+.page-section {
+	margin-bottom: 40px;
+}
+
+.h4-style {
+	font-size: 1.25rem;
+	border-top: 2px dotted #898b8d;
+	padding: 5px 0;
+	color: #898b9d;
+	font-weight: 500;
+}
+
+.article-style {
+	width: 200px;
+}
+
+.article-style-top {
+	margin: 0;
+}
+
+.article-top-thumbnail {
+	width: 100%;
+	padding: 0;
+}
+
+.article-bottom {
+	background: #e9eaeb;
+	font-size: .8rem;
+	padding: 10px;
+	margin-top: 25px;
+}
+
+.article-bottom a {
+	text-decoration: none;
+	color: #898b8d;;
+}
+
+.article-bottom-header {
+	font-weight: 500;
+	margin: 0 0 15px 0;
+}
+
+.article-bottom-subheader {
+	font-weight: 400;
+	margin: 15px 0 0 0;
+}
+
+.page-article-container {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-gap: 15px;
+}
+
+.article-style {
+	width: 100%;
+}
+
+.article-top-thumbnail-rounded {
+	border-radius: 50%;
 }
