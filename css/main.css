@@ -223,13 +223,18 @@ body {
 	padding: 30px 0;
 }
 
-.footer-links-style {
+.footer-left {
 	padding: 0 0 20px 0;
-	width: 165px;
+	width: 100%;
 	margin: 0;
 }
 
-.footer-left, .footer-right-1, .footer-right-2 {
+.footer-left img {
+	width: 50%;
+}
+
+.footer-links-style {
+	padding-left: 0;
 }
 
 .footer-links-style-list {
