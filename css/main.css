@@ -4,7 +4,7 @@
 }
 @font-face {
 	font-family: Avenir Next;
-	src: url('../fonts/Avenir Next.ttc');
+	src: url(../fonts/Avenir Next.ttc);
 }
 
 body {
