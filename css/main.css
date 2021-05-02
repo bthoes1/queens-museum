@@ -97,6 +97,7 @@ body {
 .hero__description--container {
 	display: flex;
 	justify-content: space-between;
+	margin: 20px 0 50px;
 }
 
 .hero__description--left, .hero__description--right {
