@@ -7,11 +7,14 @@
 	src: url(../fonts/Avenir Next.ttc);
 }
 
+body {
+	font-family: Avenir Next;
+}
+
 .main-container {
 	margin: 0 auto;
 	max-width: 900px;
 	min-width: 850px;
-	font-family: Avenir Next;
 	color: #898b8d
 }
 
@@ -163,13 +166,17 @@
 	font-size: .8rem;
 	padding: 10px;
 	margin-top: 25px;
-	display: flex;
-	align-items: space-between;
+	height: 75px;
 }
 
 .article-bottom a {
 	text-decoration: none;
-	color: #898b8d;;
+	color: #898b8d;
+}
+
+.article-bottom-container {
+	display: grid;
+	grid-template-rows: 33% 33% 33%;
 }
 
 .article-bottom-header {
@@ -199,4 +206,124 @@
 
 .article-top-thumbnail-rounded {
 	border-radius: 50%;
+}
+
+.footer-container {
+	background-color: #cccccc;
+	margin: 0 auto;
+}
+
+.footer {
+	max-width: 900px;
+	min-width: 850px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	font-size: .85rem;
+	padding: 30px 0;
+}
+
+.footer-links-style {
+	padding: 0 0 20px 0;
+	width: 165px;
+	margin: 0;
+}
+
+.footer-left, .footer-right-1, .footer-right-2 {
+}
+
+.footer-links-style-list {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.footer-links-style-list a {
+	text-decoration: none;
+	color: #656565
+}
+
+.footer-links-style-top, .footer-links-style-bottom {
+	display: flex;
+}
+
+.footer-links-style-top li, .footer-links-style-bottom li {
+	padding-left: 0;
+}
+.footer-links-style-top li:nth-child(odd), .footer-links-style-bottom li:nth-child(odd) {
+	list-style-type: none;
+}
+
+.footer-links-style-top li:nth-child(even), .footer-links-style-bottom li:nth-child(even) {
+	margin-left: 27px;
+	list-style-type: disc;
+}
+
+.footer-hours-style {
+	color: #656565;
+}
+
+.footer-hours-style th {
+	text-align: left;
+	padding-right: 25px;
+}
+
+.footer-contact-image {
+	width: 210px;
+}
+
+.footer-contact-style {
+	color: #656565;
+}
+
+.footer-contact-style {
+	color: #656565;
+}
+
+.footer-contact-style-address-header, .footer-contact-style-address-line{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.footer-contact-style-transportation {
+	display: flex;
+}
+
+.footer-contact-style-transportation-subway-icon {
+	color: white;
+	background: #ae30cc ;
+	border-radius: 50%;
+	font-size: .55rem;
+	font-weight: 600;
+	width: 12px;
+	height: 12px;
+	padding: 2px 1px 0 1px;
+	font-family: sans-serif;
+	text-align: center;
+	align-content: center;
+	margin-right: 5px;
+}
+
+.footer-contact-style-info-table-email a {
+	text-decoration: none;
+	color: #656565;
+}
+
+.footer-social-style-nav {
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+	margin: 0 0 25px 0;
+}
+
+.footer-social-style-nav a {
+	color: #656565;
+}
+
+.footer-social-style-nav li {
+	margin-right: 3px;
+	font-size: 1.5rem;
+}
+
+.footer-social-style-copyright {
+	font-size: .85rem;
+	text-transform: uppercase;
 }
